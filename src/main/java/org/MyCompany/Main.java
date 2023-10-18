@@ -6,10 +6,12 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Main {
     public static void main(String[] args) {
-        WebDriverManager.chromedriver().setup();
-        WebDriver driver = new ChromeDriver();
-        driver.manage().window().maximize();
-        driver.get("https://keyflight.io/fake");
-        driver.quit();
+        //Search flight Belgrade to Munich
+
+        //See if there is 0, 1 or more results
+
+        //Take extra criteria
+
+        //Reserve one card
     }
 }
